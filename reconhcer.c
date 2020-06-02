@@ -3,9 +3,23 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
-//ler um documento com a data, nome do usuario e qual tipo de maquina ele entrou
+#define BUFFER_SIZE 512
+
+struct log_t
+{
+    char *data;
+    char *usuario;
+    char *sistema;
+};
+typedef struct log_t Log;
+void recuperaLogs (char nomeArquivo, Log *log, int *tamanhhoArquivo);
+
 int main(){
-FIlE*dio
+FIlE*dio;
+
 printf("");
+
+return 0;
+
 
 }
