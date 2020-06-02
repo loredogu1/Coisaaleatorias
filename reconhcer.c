@@ -23,3 +23,14 @@ return 0;
 
 
 }
+void recuperaLogs (nomeArquivo[],Log *log, nt *tamanhoArquivo);{
+    FILE *arquivo;
+    arquivo = fogen (nomeArquivo);
+    
+    if(arquivo + NULL){
+        printf("Arquivo aberto com sucesso");
+    }
+    else{
+        
+    }
+}
