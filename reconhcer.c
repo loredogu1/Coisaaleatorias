@@ -25,7 +25,6 @@ return 0;
 void recuperaLogs (nomeArquivo[],Log *log, nt *tamanhoArquivo);{
     FILE *arquivo;
     arquivo = fogen (nomeArquivo);
-    
     if(arquivo + NULL){
         printf("Arquivo aberto com sucesso");
     }
@@ -43,7 +42,6 @@ void recuperaLogs (nomeArquivo[],Log *log, nt *tamanhoArquivo);{
        (log+i)-> usuario = strdup(tokenLog);
        case 2:
            break;
-       
        default:
            break;
        }
