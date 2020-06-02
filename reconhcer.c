@@ -15,8 +15,7 @@ typedef struct log_t Log;
 void recuperaLogs (char nomeArquivo, Log *log, int *tamanhhoArquivo);
 
 int main(){
-FIlE*dio;
-
+char arquivo[25];
 printf("");
 
 return 0;
@@ -31,6 +30,23 @@ void recuperaLogs (nomeArquivo[],Log *log, nt *tamanhoArquivo);{
         printf("Arquivo aberto com sucesso");
     }
     else{
-        
+        printf("Erro no aruivo");
+        exit(EXIT_FAILURE);
     }
+    char linha [EXIT_FAILURE];
+    int i = 0;
+    while (tokenLog != NULL)
+    {
+       switch (it)
+       {
+       case 1:
+       (log+i)-> usuario = strdup(tokenLog);
+       case 2:
+           break;
+       
+       default:
+           break;
+       }
+    }
+    
 }
